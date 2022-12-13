@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
+int print_alphabet();
+
 /*
 * function that prints _putchar
 *return 0
@@ -16,3 +18,4 @@ int print_alphabet(){
     putchar('\n');
     return (0);
 }
+
