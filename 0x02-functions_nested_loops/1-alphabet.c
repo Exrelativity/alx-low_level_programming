@@ -5,9 +5,9 @@
 * function that prints _putchar
 *return 0
 */
-int main(void){
+int print_alphabet(){
     unsigned int i;
-    char x[] = "_putchar";
+    char x[] = "abcdefghijklmnopqrstuvwxyz";
     for (i = 0; i <= strlen(x); i++)
     {
         putchar(x[i]);
