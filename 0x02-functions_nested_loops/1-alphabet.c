@@ -1,21 +1,14 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
-int print_alphabet();
+#include "main.h"
+/**
+ * print_alphabet-print all alphabet in lowercase
+ */
 
-/*
-* function that prints _putchar
-*return 0
-*/
-int print_alphabet(){
-    unsigned int i;
-    char x[] = "abcdefghijklmnopqrstuvwxyz";
-    for (i = 0; i <= strlen(x); i++)
-    {
-        putchar(x[i]);
-    }
+void print_alphabet(void)
+{
+	char letter;
 
-    putchar('\n');
-    return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+	_putchar('\n');
 }
-

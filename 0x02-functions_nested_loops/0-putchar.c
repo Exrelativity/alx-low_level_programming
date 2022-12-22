@@ -1,18 +1,19 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
-/*
-* function that prints _putchar
-*return 0
-*/
-int main(void){
-    unsigned int i;
-    char x[] = "_putchar";
-    for (i = 0; i <= strlen(x); i++)
-    {
-        putchar(x[i]);
-    }
+#include "main.h"
+/**
+ * main - print _putchar
+ * Return: 0
+ */
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-    putchar('\n');
-    return (0);
+	return (0);
 }

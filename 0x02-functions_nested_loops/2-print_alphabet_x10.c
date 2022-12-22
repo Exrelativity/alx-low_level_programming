@@ -1,19 +1,24 @@
-#include "1-alphabet.c"
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
+#include "main.h"
+/**
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
+ * followed by a new line
+ */
+void print_alphabet_x10(void)
+{
+	char ch;
+	int i;
 
-/*
-* function that prints _alphabets
-*return 0
-*/
-int print_alphabet_x10()
- {
-    int i;
-    for (i=0; i <= 10; i++)
-    {
-        print_alphabet();
-    }
-    putchar('\n');
-    return (0);
+	i = 0;
+
+	while (i < 10)
+	{
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
+	}
 }
