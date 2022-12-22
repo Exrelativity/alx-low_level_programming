@@ -1,1 +1,5 @@
 .vscode
+.gitignore
+*(1).c
+holberton.h
+Test
