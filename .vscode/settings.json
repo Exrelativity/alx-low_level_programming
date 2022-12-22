@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "index.h": "c"
+        "index.h": "c",
+        "main.h": "c"
     }
 }
